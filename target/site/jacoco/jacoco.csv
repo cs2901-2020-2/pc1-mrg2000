@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+lab5Grupo4,cs.pc,NotValidInformation,4,0,0,0,2,0,1,0,1,0
+lab5Grupo4,cs.pc,RegistrApp,97,70,8,2,26,15,8,4,3,4
+lab5Grupo4,cs.pc,CourseDescription,41,30,11,1,3,9,6,2,0,2
+lab5Grupo4,cs.pc,EntidadUniversitaria,30,0,0,0,8,0,5,0,5,0
+lab5Grupo4,cs.pc,BadLink,4,0,0,0,2,0,1,0,1,0
+lab5Grupo4,cs.pc,Profesor,39,0,2,0,7,0,4,0,3,0
+lab5Grupo4,cs.pc,CourseLink,2,20,1,1,0,6,1,2,0,2
+lab5Grupo4,cs.pc,TooLongException,4,0,0,0,2,0,1,0,1,0
