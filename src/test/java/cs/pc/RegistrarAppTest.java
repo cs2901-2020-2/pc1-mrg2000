@@ -21,7 +21,7 @@ class RegistrarAppTest {
     }
 
     @Test
-    public void testCase1(){
+    public void testCase2(){
         long begginTime = System.currentTimeMillis();
         long maxExecutionTime = 500;
         generic(1);
