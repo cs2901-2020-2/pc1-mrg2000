@@ -5,7 +5,6 @@ import java.util.logging.Logger;
 public class EntidadUniversitaria {
 
     private String nombre;
-    private String currentNotification;
     static final Logger logger = Logger.getLogger(EntidadUniversitaria.class.getName());
 
     public void setNombre(String nombre){
@@ -13,8 +12,7 @@ public class EntidadUniversitaria {
     }
 
     public void setNotification(String notification){
-        this.currentNotification = notification;
-        logger.info(this.currentNotification);
+        logger.info(notification);
         logger.info("Usuario notificado correctamente.");
     }
 

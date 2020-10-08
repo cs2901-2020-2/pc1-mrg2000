@@ -35,19 +35,16 @@ public class RegistrApp {
         String[] infoGeneral = descComponentes[0].split("\\s+");
         String seccion = descComponentes[1];
         String semana = descComponentes[2];
-        String profesor = descComponentes[3];
+        String profesorName = descComponentes[3];
         String fechayTipo = descComponentes[4];
 
-        CourseDescription curso = new CourseDescription(infoGeneral, seccion, semana, profesor, fechayTipo);
-
-        if(curso.isValidDescription()) return true;
-        else return false;
+        CourseDescription curso = new CourseDescription(infoGeneral, seccion, semana, profesorName, fechayTipo);
+        return curso.isValidDescription();
     }
 
     public boolean validateLink(String link){
         CourseLink courseLink = new CourseLink(link);
-        if(courseLink.isValidLink()) return true;
-        else return false;
+        return courseLink.isValidLink();
     }
 
     public String notify(String mensaje){
@@ -59,12 +56,11 @@ public class RegistrApp {
         dga.setNombre("dga");
         counterDocentes.setNombre("counterDocentes");
         counterAlumnos.setNombre("counterAlumnos");
-        
-        
+        logger.info(mensaje);
         return "Entidades notificada correctamente";
     }
 
-    public void main(String []args){
+    public void main(){
         this.loginAndRegister("");
     }
 

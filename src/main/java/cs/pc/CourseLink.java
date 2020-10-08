@@ -9,8 +9,7 @@ public class CourseLink {
     }
 
     public boolean isValidLink(){
-        if(this.link.substring(0,30).matches(this.linkPrefix)) return true;
-        return false;
+        return this.link.substring(0,30).matches(this.linkPrefix);
     }
 
 
