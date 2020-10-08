@@ -1,5 +1,4 @@
 package cs.pc;
-import java.lang.String;
 
 public class CourseLink {
     private String link;
@@ -11,7 +10,7 @@ public class CourseLink {
 
     public boolean isValidLink(){
         if(this.link.substring(0,30).matches(this.linkPrefix)) return true;
-        else return false;
+        return false;
     }
 
 
