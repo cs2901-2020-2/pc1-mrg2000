@@ -8,7 +8,7 @@ public class CourseDescription {
     private String semana;
     private String profesor;
     private String fechayTipo;
-    static final Logger logger = Logger.getLogger(RegistrApp.class.getName());
+    static final Logger logger = Logger.getLogger(CourseDescription.class.getName());
 
 
     CourseDescription(String[] infoGeneral, String seccion, String semana, String profesor, String fechayTipo){
