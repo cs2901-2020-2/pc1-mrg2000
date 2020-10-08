@@ -12,7 +12,7 @@ public class RegistrApp {
     public boolean loginAndRegister(String nombreProfesor) {
         logger.info("Bienvenido a RegistrApp");
         logger.info("Por favor, ingrese su nombre: ");
-        if(nombreProfesor == ""){
+        if(nombreProfesor.equals("")){
             Scanner input = new Scanner(System.in);
             profesor.setNombre(input.toString());
         }else{
