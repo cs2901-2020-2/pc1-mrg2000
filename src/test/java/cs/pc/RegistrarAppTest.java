@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 class RegistrarAppTest {
     static final Logger logger = Logger.getLogger(RegistrarAppTest.class.getName());
 
-    @Test
+    @Test (invocationCount = 100, threadPoolSize = 100)
     public void testCase0(){
         generic(0);
     }
